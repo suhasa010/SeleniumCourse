@@ -1,5 +1,6 @@
 package week1;
 
-public class EvenNumber {
+public class Task1 {
 
+	
 }
