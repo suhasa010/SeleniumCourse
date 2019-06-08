@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Rajnikanth {
 	public static void main(String[] args) {
-		//setting a property of chrome
+		//setting a property of Chrome
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Suhasa\\git\\SeleniumCourse\\SeleniumCourse\\src\\driver\\chromedriver.exe" );
 		
 		// Initialize browser
