@@ -17,12 +17,12 @@ public class Rajnikanth {
 		//get Page source
 		String source=driver.getPageSource();
 		String expString="Rajnikanth";
+		
 		//verify String is present or not
 		if(source.contains(expString)) {
 			System.out.println("Rajnikanth is present");
 		}
-		else
-		{
+		else {
 			System.out.println("Rajnikanth is not present");			
 		}
 		
