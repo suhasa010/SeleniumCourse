@@ -12,7 +12,7 @@ public class Rajnikanth {
 		WebDriver driver=new ChromeDriver();
 		 
 		// Open Google
-		driver.get("http://www.google.com");
+		driver.navigate().to("http://www.google.com");
 		
 		//get Page source
 		String source=driver.getPageSource();

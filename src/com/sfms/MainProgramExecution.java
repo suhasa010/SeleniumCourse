@@ -14,7 +14,17 @@ public class MainProgramExecution {
 		jang.payFees(5000);
 		kallia.payFees(5000);
 		
-		System.out.println(School.getTotalfunds());
+		System.out.println("Total Fund Of School is : "+School.getTotalfunds());
+		
+		Teacher promod =new Teacher(1234,"Promod",1000);
+		
+		System.out.println("Total fund of school after paying the salary : "+ School.getTotalfunds());
+		
+		kallia.payFees(15000);
+		
+		System.out.println("Total Fund Of School is : "+School.getTotalfunds());
+		promod.setSalary(1000);
+		System.out.println("Total fund of school after paying the 2nd salary : "+ School.getTotalfunds());
 		
 		
 		

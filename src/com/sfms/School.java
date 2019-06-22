@@ -14,7 +14,7 @@ public class School {
 		return totalfunds;
 	}
 	
-	public int getTotalremaining() {
+	public static int getTotalremaining() {
 		return totalremaining;
 	}
 	
@@ -22,8 +22,8 @@ public class School {
 		totalfunds += fund;
 	}
 	
-	public static void updateTotalremaining(int remaining) {
-		totalremaining = totalfunds - remaining;
+	public static void updateTotalremaining(int fund) {
+		totalfunds = getTotalfunds()- fund;
 	}
 	
 	

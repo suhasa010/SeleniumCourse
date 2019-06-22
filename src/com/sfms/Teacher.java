@@ -5,6 +5,15 @@ public class Teacher {
 	private String name;
 	private int salary;
 	
+	public Teacher(int id,String name,int salary)
+	{
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		School.updateTotalremaining(salary);
+		
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -27,6 +36,7 @@ public class Teacher {
 	
 	public void setSalary(int salary) {
 		this.salary = salary;
+		School.updateTotalremaining(salary);
 	}
 	
 }
