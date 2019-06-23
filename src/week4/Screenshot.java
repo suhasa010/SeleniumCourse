@@ -28,5 +28,4 @@ public class Screenshot {
 			FileUtils.copyFile(scrFile, new File("c:\\tmp\\screenshot.png"));
 			driver.close();
 	}
-
 }
