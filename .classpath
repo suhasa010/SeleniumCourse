@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="C:/Users/Suhasa/git/SeleniumCourse/SeleniumCourse/src/driver/commons-io-2.6/commons-io-2.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Suhasa/git/SeleniumCourse/SeleniumCourse/src/driver/commons-io-2.6/commons-io-2.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Suhasa/git/SeleniumCourse/SeleniumCourse/src/driver/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
