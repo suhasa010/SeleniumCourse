@@ -27,19 +27,20 @@ public class WebTableTask {
 			
 		   List<WebElement>rows=driver.findElements(By.tagName("tr"));
 		   String FirstPart="//table[@name='BookTable']/tbody/tr[";
-		   String SecondPart="]/td[4]";
+		   String Subject = "]/td[3]";
+		   String Price="]/td[4]";
 		   String AuthorName = "]/td[2]";
 		   String BookName = "]/td[1]";
 		   
 		   for(int i=2;i<=rows.size();i++)
 		   {
 			 if(driver.findElement(By.xpath(FirstPart+i+AuthorName)).getText() == "Mukesh") {
-				 System.out.println( driver.findElement(By.xpath(FirstPart+i+SecondPart)).getText());
-				 System.out.println( driver.findElement(By.xpath(FirstPart+i+BookName)).getText());
-			}
+			     System.out.println(driver.findElement(By.xpath(FirstPart+i+Subject)).getText());
+				 System.out.println(driver.findElement(By.xpath(FirstPart+i+Price)).getText());
+				 System.out.println(driver.findElement(By.xpath(FirstPart+i+BookName)).getText());
+			 }
 			
-			driver.close();
 		   }
+		   driver.close();
+	   }
 	}
-
-}
