@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataDrivenFramework.DataDrivenTest">
+      <class name="week7.DemoWindowsHandle">
         <methods>
-          <include name="DemoProject" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="ProgramTermination"/>
+          <include name="testWindowHandle"/>
         </methods>
-      </class> <!-- DataDrivenFramework.DataDrivenTest -->
+      </class> <!-- week7.DemoWindowsHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
