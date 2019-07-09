@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week5.YahooLoginPage">
+      <class name="DataDrivenFramework.DataDrivenTest">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="verifyLoginWithInvalidMailID"/>
-          <include name="trunketBrowser"/>
+          <include name="DemoProject" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="ProgramTermination"/>
         </methods>
-      </class> <!-- week5.YahooLoginPage -->
+      </class> <!-- DataDrivenFramework.DataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
