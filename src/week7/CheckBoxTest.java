@@ -12,32 +12,32 @@ import org.testng.annotations.Test;
 
 public class CheckBoxTest {
 
-@Test
-public void checkBoxTesting() throws InterruptedException
-{
-WebDriver driver = new ChromeDriver();
-driver.get("https://www.toolsqa.com/automation-practice-form");
+	@Test
+	public void checkBoxTesting() throws InterruptedException
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.toolsqa.com/automation-practice-form");
 
-List<WebElement> toolCheckBox = driver.findElements(By.name("tool"));
-int size =toolCheckBox.size();
-for(int i=0;i<size;i++)
-{
-if(i!=0)
-{
-for(int j=i-1;j<i;j++)
-{
+		List<WebElement> toolCheckBox = driver.findElements(By.name("tool"));
+		int size =toolCheckBox.size();
+		for(int i=0;i<size;i++)
+		{
+			if(i!=0)
+			{
+				for(int j=i-1;j<i;j++)
+				{
 
-toolCheckBox.get(j).click();
+					toolCheckBox.get(j).click();
 
-}
+				}
 
-}
+			}
 
-toolCheckBox.get(i).click();
-Thread.sleep(3000);
-}
+			toolCheckBox.get(i).click();
+			Thread.sleep(3000);
+		}
 
-driver.close();
+		driver.close();
 
-}
+	}
 }
