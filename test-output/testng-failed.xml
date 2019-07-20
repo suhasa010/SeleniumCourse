@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week7.DemoWindowsHandle">
+      <class name="week8.TIB">
         <methods>
-          <include name="testWindowHandle"/>
+          <include name="ContactUs"/>
+          <include name="CloseDriver"/>
+          <include name="SetDriver"/>
         </methods>
-      </class> <!-- week7.DemoWindowsHandle -->
+      </class> <!-- week8.TIB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47624" started-at="2019-07-09T15:47:01Z" finished-at="2019-07-09T15:47:48Z">
+  <suite name="Default suite" duration-ms="24796" started-at="2019-07-20T12:55:53Z" finished-at="2019-07-20T12:56:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47624" started-at="2019-07-09T15:47:01Z" finished-at="2019-07-09T15:47:48Z">
-      <class name="week7.DemoWindowsHandle">
-        <test-method status="PASS" signature="testWindowHandle()[pri:0, instance:week7.DemoWindowsHandle@cb5822]" name="testWindowHandle" duration-ms="47572" started-at="2019-07-09T15:47:01Z" finished-at="2019-07-09T15:47:48Z">
+    <test name="Default test" duration-ms="24796" started-at="2019-07-20T12:55:53Z" finished-at="2019-07-20T12:56:17Z">
+      <class name="week8.TIB">
+        <test-method status="PASS" signature="SetDriver()[pri:0, instance:week8.TIB@523884b2]" name="SetDriver" is-config="true" duration-ms="14414" started-at="2019-07-20T12:55:53Z" finished-at="2019-07-20T12:56:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWindowHandle -->
-      </class> <!-- week7.DemoWindowsHandle -->
+        </test-method> <!-- SetDriver -->
+        <test-method status="PASS" signature="ContactUs()[pri:0, instance:week8.TIB@523884b2]" name="ContactUs" duration-ms="10284" started-at="2019-07-20T12:56:07Z" finished-at="2019-07-20T12:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:week8.TIB@523884b2]" name="CloseDriver" is-config="true" duration-ms="68" started-at="2019-07-20T12:56:17Z" finished-at="2019-07-20T12:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- week8.TIB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
